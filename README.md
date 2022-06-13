@@ -15,6 +15,7 @@ This project is an on-campus delivery robot that is designed to ship packages of
 ## Sensor Fusion
 _____  
 Localization is done using sensors from an android phone including an IMU (accelerometer, gyroscope, magnetometer), and a GPS sensor. Aditionally odometry data from the hoverboard itself is also used. The android app fuses the GPS signal and the odomoetry for accurate robot position estimation. And fuses GPS yaw with the IMU yaw for orientation.  
+![Alt text](fusion.png)
 
 ## Navigation
 _____  
